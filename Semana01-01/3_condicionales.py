@@ -20,7 +20,7 @@ if edad > 18:
 elif edad > 15: 
     print('Ya te falta poco para votar')
 else:
-    prin('Que haces aquí?')
+    print('Que haces aquí?')
 
 # Segun el sexo y la estatura hacer lo siguiente 
 # si es Masculino 
@@ -35,6 +35,13 @@ else:
 sexo = 'Masculino'
 estatura = 1.35 
 # output -> SI HAY ROPA
+
+if sexo == 'Masculino':
+    if estatura > 1.28 and estatura < 1.49 :
+    else: 
+            print('N')
+else: 
+
 
 sexo = 'Masculino'
 estatura = 1.80 
